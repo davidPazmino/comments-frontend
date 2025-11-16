@@ -28,7 +28,7 @@ docker build -t comments-frontend:latest .
 ## Run de la imagen Docker
 
 ```bash
-docker run -p 8080:80 -e BACKEND_API_URL=http://localhost:8080 comments-frontend:latest
+docker run -p 8080:8080 -e BACKEND_API_URL=http://localhost:8080 comments-frontend:latest
 ```
 
 ## Push la imagen Docker
