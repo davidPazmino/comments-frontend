@@ -3,6 +3,6 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install --production
 COPY src ./src
-EXPOSE 80
-ENV PORT=80
+EXPOSE 8080
+ENV PORT=8080
 CMD ["node","src/index.js"]

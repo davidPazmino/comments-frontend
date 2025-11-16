@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 
 const app = express();
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 8080;
 const BACKEND_API_URL = process.env.BACKEND_API_URL || 'http://localhost:8080';
 
 app.get('/', async (req, res) => {
